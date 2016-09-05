@@ -1,4 +1,4 @@
 jpetstore:
-  image: "192.168.50.103:5000/jpetstore:$BUILD_NUMBER"
+  image: "registry.cn-hangzhou.aliyuncs.com/wise2c/sample-jpetstore:BUILD-${BUILD_NUMBER}"
   ports:
     - "8282:8080"
